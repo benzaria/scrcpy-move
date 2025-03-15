@@ -1,5 +1,6 @@
 # this file is made to replace scrcpy in EnvVar or
-# you can add this function to your powershell config File
+# you can add this function to your powershell profile
+# to find it run `echo $PROFILE`
 function scrcpy {
     # Change this to your personal paths
     $scrcpy_move = "./scrcpy-move.ahk"
