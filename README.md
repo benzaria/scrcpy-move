@@ -3,6 +3,7 @@
 ## Table
 
 - [Scrcpy Window Mover](#scrcpy-window-mover)
+  - [Table](#table)
   - [Description](#description)
   - [Features](#features)
   - [Requirements](#requirements)
