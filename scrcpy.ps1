@@ -2,7 +2,7 @@
 # you can add this function to your powershell config File
 function scrcpy {
     # Change this to your personal paths
-    $scrcpy_move = "C:/path/to/scrcpy-move.ahk"
+    $scrcpy_move = "./scrcpy-move.ahk"
     $ahk_exe     = "C:/Program Files/AutoHotkey/v2/AutoHotkey.exe"
 
     # this is Optional for some default args

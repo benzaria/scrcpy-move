@@ -31,29 +31,8 @@ This AutoHotkey (AHK) script allows you to move and position a **borderless** sc
 2. Run the script when you need it, or add it to `startup` folder.
 
 > [!TIP]
-> Add the function bellow to your `powershell` config file.  
-> this will start the script only while using `scrcpy`
->
-> ```powershell
-> function scrcpy {
->     # Change this to your personal paths
->     $scrcpy_move = "C:/path/to/scrcpy-move.ahk"
->     $ahk_exe     = "C:/Program Files/AutoHotkey/v2/AutoHotkey.exe"
-> 
->     # this is Optional for some default args
->     if ($args[0] -eq "--") { $scrcpyArgs = $args }
->     else { $scrcpyArgs = @("--window-borderless", "--turn-screen-off", "--stay-awake") + $args }
-> 
->     # Start the AHK script in the background
->     $scrcpy_move = Start-Process -FilePath "$ahk_exe" -ArgumentList "`"$scrcpy_move`"" -PassThru
-> 
->     # Start Scrcpy and wait until it exits
->     scrcpy.exe @scrcpyArgs
-> 
->     # Kill the AHK script when Scrcpy exits
->     Stop-Process -Id $scrcpy_move.Id -ErrorAction SilentlyContinue
-> }
-> ```
+> **Add** this [function](./scrcpy.ps1) to your `powershell` profile. or **Use** it as is.  
+> this will start the script **only while using** `scrcpy`
 
 ## Usage
 

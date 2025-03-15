@@ -1,5 +1,5 @@
 /**
- * @description A script to move around a bordless scrcpy window
+ * @description A script to move around a borderless scrcpy window
  * @author Benz
  * @date 15/03/2025
  * @version 1.0.0
