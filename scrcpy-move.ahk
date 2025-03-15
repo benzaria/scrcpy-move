@@ -6,7 +6,7 @@
  */
 
 #SingleInstance Force              ; Force a Single Instance of the script to be running
-#Requires AutoHotkey >=2.0         ; Requires ahk v2.0 or higher
+#Requires AutoHotkey >=2.0         ; Requires autohotkey v2.0 or higher
 Persistent                         ; Prevent the script from exiting
 SetTitleMatchMode 3                ; Match exact window title
 scrcpyExe := "ahk_exe scrcpy.exe"  ; Match the process name
