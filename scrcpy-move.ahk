@@ -3,10 +3,11 @@
  * @author Benz
  * @date 15/03/2025
  * @version 1.0.0
+ * @see {@link https://www.autohotkey.com/docs/v2/Hotkeys.htm}
  */
 
 #SingleInstance Force              ; Force a Single Instance of the script to be running
-#Requires AutoHotkey >=2.0         ; Requires ahk v2.0 or higher
+#Requires AutoHotkey >=2.0         ; Requires autohotkey v2.0 or higher
 Persistent                         ; Prevent the script from exiting
 SetTitleMatchMode 3                ; Match exact window title
 scrcpyExe := "ahk_exe scrcpy.exe"  ; Match the process name
@@ -18,7 +19,7 @@ bigStep := 30    ; Faster move with Shift
 ; Active only if the current window is scrcpy
 #HotIf WinActive(scrcpyExe)
 
-; Move window by an offset Pos
+; Move window to a relative Pos
 MoveScrcpy(xOffset := 0, yOffset := 0) {
     WinGetPos &X, &Y, , , scrcpyExe
     WinMove X + xOffset, Y + yOffset, , , scrcpyExe
