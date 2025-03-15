@@ -1,14 +1,13 @@
 # Scrcpy Window Mover
 
-- [Scrcpy Window Mover](#scrcpy-window-mover)
-  - [Description](#description)
-  - [Features](#features)
-  - [Requirements](#requirements)
-  - [Instalation](#instalation)
-  - [Usage](#usage)
-  - [How It Works](#how-it-works)
-  - [Notes](#notes)
-  - [License](#license)
+- [Description](#description)
+- [Features](#features)
+- [Requirements](#requirements)
+- [Instalation](#instalation)
+- [Usage](#usage)
+- [How It Works](#how-it-works)
+- [Notes](#notes)
+- [License](#license)
 
 ## Description
 
@@ -17,10 +16,9 @@ This AutoHotkey (AHK) script allows you to move and position a **borderless** sc
 ## Features
 
 - Move scrcpy window **relative to its current position**.
-- Move scrcpy window **to an absolute position**.
-- Toggle **always on top** mode.
 - Quickly align the window to edges or center of the screen.
-- Normal and fast movement modes.
+- Toggle **always on top** mode.
+- Normal and Fast movement modes.
 
 ## Requirements
 
@@ -89,4 +87,4 @@ This AutoHotkey (AHK) script allows you to move and position a **borderless** sc
 
 ## License
 
-This script is open-source and free to use. Modify it as needed!
+This script is licensed under the [MIT License](./LICENSE.md)
