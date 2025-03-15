@@ -3,7 +3,7 @@
  * @author Benz
  * @date 15/03/2025
  * @version 1.0.0
- * @see {@link https://www.autohotkey.com/docs/v2/Hotkeys.htm}
+ * @see {@link https://www.autohotkey.com/docs/v2/Hotkeys.htm} before modifing this
  */
 
 #SingleInstance Force              ; Force a Single Instance of the script to be running
@@ -12,7 +12,7 @@ Persistent                         ; Prevent the script from exiting
 SetTitleMatchMode 3                ; Match exact window title
 scrcpyExe := "ahk_exe scrcpy.exe"  ; Match the process name
 
-; Move speed
+; Move distance
 smallStep := 5   ; Normal move
 bigStep := 30    ; Faster move with Shift
 
