@@ -7,7 +7,7 @@ function scrcpy {
     $ahk_exe     = "C:/Program Files/AutoHotkey/v2/AutoHotkey.exe"  # default installation path
 
     # This is optional for some default args
-    if ($args[0] -eq "--") { $scrcpyArgs = $args }
+    if ($args[0] -eq "-") { $scrcpyArgs = $args }
     else { $scrcpyArgs = @("--window-borderless", "--turn-screen-off", "--stay-awake") + $args }
 
     # Start the AHK script in the background
